@@ -2,8 +2,6 @@
 
 <h5 align="center">07469717542 | kaihulme97@gmail.com | LinkedIn: kaihulme | GitHub: kaihulme</h5>
 
----
-
 ## Education
 
 ### University of Bristol
@@ -12,8 +10,6 @@ Computer Science BSc, First Class Honours, 2021
 
 - Specialised and excelled in Machine Learning, Applied Data Science, Computer Vision, Artificial Intelligence and Software Engineering units.
 - Further study on areas of interest in ethical computer science and computational neuroscience.
-
----
 
 ## Work Experience
 
@@ -40,8 +36,6 @@ Computer Science BSc, First Class Honours, 2021
 - Developed using agile and test‑driven methodologies with version control and CI/CD using Git and CircleCI.
 - Full stack development of Java web app to create and monitor events with API for communication to MySQL database hosted with AWS.
 - Showing strong team management and leadership skills, I was put forward to mentor teams of students with their projects the following year.
-
----
 
 ## Projects
 
@@ -73,15 +67,11 @@ Computer Science BSc, First Class Honours, 2021
 - Dartboard detection using OpenCV and traditional computer vision techniques implemented in C++ and Python.
 - Bounding box detection from images using ensemble of Viola‑Jones cascades, Hough transform shape detectors and KMeans clustering.
 
----
-
 ## Key Skills
 
 **Languages and Technologies:** Python, C/C++, Java, Haskell, SQL, Linux, Git, Docker, CI/CD, AWS, LATEX
 **Development and Data:** Agile & Test‑Driven Development, Object‑Oriented Programming, Data Engineering, Analysis & Visualisation
 **Frameworks and Packages:** TensorFlow / Keras, Scikit‑Learn, XGBoost, PyMC3, OpenCV, NumPy, Pandas, Seaborn, Plotly
-
----
 
 ## Achievements and Awards
 
@@ -89,11 +79,7 @@ Computer Science BSc, First Class Honours, 2021
 - **Oxford Bebras Gold Award**, elite category computational thinking challenge, performing best in class. 
 - **EPQ**, written on quantum computation and its future impact on society. 
 
----
-
 ## Interests
 
 - Kaggle machine learning competitions, building PCs, playing with Raspberry Pis and configuring Linux distros.
 - Road & mountain biking, virtual indoor bike racing on Zwift, Brazilian Jiu Jitsu, yoga and cooking mushrooms I find whilst hiking.
-
----
