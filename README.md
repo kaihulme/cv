@@ -6,7 +6,7 @@
 
 ### University of Bristol
 
-Computer Science BSc, First Class Honours, 2021
+**Computer Science BSc**, First Class Honours, 2021
 
 - Specialised and excelled in Machine Learning, Applied Data Science, Computer Vision, Artificial Intelligence and Software Engineering units.
 - Further study on areas of interest in ethical computer science and computational neuroscience.
