@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Kai}{Hulme}
+% \position{Software Engineer{\enskip\cdotp\enskip}Data Scientist}
+\address{84 Broadoak Road, Langford, BS40 5HB}
+\mobile{ 07469717542}
+\email{kaihulme97@gmail.com}
+% \homepage{www.homepage.com}
+\github{kaihulme}
+\linkedin{kaihulme}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+% \quote{``A quote to display at the top of the page."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Graphcore}
+  {Prudential Buildings \\ Wine St \\ Bristol \\ BS1 2PH}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for 2022 Graduate Software Engineer - AI Test Team}
+% How the letter is opened
+\letteropening{Dear Graphcore Recruitment Team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+% \letterenclosure[Attached]{CV}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+%   {\today}
+%   {Kai Hulme~~~·~~~Cover Letter}
+%   {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%-------------------------
+
+I am writing to express my interest in your Graduate Software Engineer position on the AI Test Team. I recently graduated from the University of Bristol with a First Class Honours in Computer Science, whilst working as a supervisor at a bar to fund my studies. I am a highly motivated, keen problem-solver, with extensive academic and self-taught knowledge on practical software development methodologies and machine learning methods. Confident in my Python and machine learning capabilities, shown throughout my projects and experience, I am excited for the opportunity to apply my passion for AI to solve real-world problems.
+
+The role of AI Test Engineer has similar responsibilities to skills learnt during my machine learning methods analysis project; building visualisation and performance measures to analyse and compare machine learning models made this one of my favourite projects. Motivated to learn beyond what my university course offered, I taught myself deep learning techniques and used this knowledge during my thesis to implement Generative Adversarial Networks with TensorFlow / Keras, which meant I was excited by Bastien Arcelin's work with generative models using Graphcore IPUs to generate images of galaxies. Seeing the limitations of my Nvidia GPU it will be exciting to test out cutting edge AI hardware and see what is possible. My project for BioScientifica saw me lead and develop a real-world product for a client, where I learnt important development methodologies, communication and teamwork skills. During this project, I made use of AWS and CI/CD and I look forward to seeing how these technologies work at scale. My interest and years of experience in Linux environments and the use of Docker to manage TensorFlow GPU environments will give me further confidence whilst adapting to this new role.
+
+Aside from the technical aspects of the job, Graphcore looks like a lovely place to work. As an avid cyclist, I was excited to hear about your lunchtime bike rides as this is my favourite way to take time away from programming. I also imagine an environment where people practice yoga is a calming one and somewhere I would love to do my work, and enjoy my yoga practice. Excelling whenever working alongside team members, I look forward to working together with new people to solve important AI problems.
+
+I am excited for the opportunity to apply my machine learning and software development expertise and explore my potential at an exciting young company providing the next generation of AI hardware for future breakthroughs in machine intelligence. Thank you for your time and consideration, please feel free to contact me using any of my information provided at the top. I look forward to hearing from you!
+
+%-------------------------
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
