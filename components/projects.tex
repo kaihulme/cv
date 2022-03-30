@@ -3,51 +3,92 @@
 
 \begin{cvprojects}
 
+% %---------------------------------------------------------
+% \cvproject
+%     {\href{https://github.com/kaihulme/ad-gan}{\faGithubSquare\acvHeaderIconSep ad-gan}} % Project location
+%     {GANs for Alzheimer's Disease Detection} % Project Name
+%     {\begin{cvitems}
+%         \item Thesis project studying the use of GANs as an augmentation technique for improved Alzheimer’s Disease detection in MRI volumes.
+%         \item Using the OASIS dataset of Alzheimer's Disease patients, built neuroimaging pre-processing pipelines with NiPype to use data with ML models.
+%         \item Built a method for Alzheimer's Disease classification in MRI volumes using a slice extraction method and CNN model using TensorFlow / Keras.
+%         \item Implementation of Generative Adversarial Networks in TensorFlow / Keras with custom training logic and loss functions.
+%         \item Implementation of current literature on GAN models and machine learning Alzheimer's Disease detection methods.
+%         \item Model deployment to Nvidia GPU using Docker containerisation.
+%       \end{cvitems}
+%     }
+
 %---------------------------------------------------------
 \cvproject
     {\href{https://github.com/kaihulme/ad-gan}{\faGithubSquare\acvHeaderIconSep ad-gan}} % Project location
     {GANs for Alzheimer's Disease Detection} % Project Name
     {\begin{cvitems}
         \item Thesis project studying the use of GANs as an augmentation technique for improved Alzheimer’s Disease detection in MRI volumes.
-        \item Using the OASIS dataset of Alzheimer's Disease patients, built neuroimaging pre-processing pipelines with NiPype to use data with ML models.
-        \item Built a method for Alzheimer's Disease classification in MRI volumes using a slice extraction method and CNN model using TensorFlow / Keras.
-        \item Implementation of Generative Adversarial Networks in TensorFlow / Keras with custom training logic and loss functions.
-        \item Implementation of current literature on GAN models and machine learning Alzheimer's Disease detection methods.
-        \item Model deployment to Nvidia GPU using Docker containerisation.
+        \item Developed neuroimaging pre-processing pipelines with NiPype to extract brain regions from MRI volumes for use with ML models.
+        \item CNN classification of sliced MRI volumes and implementation of GANs in TensorFlow / Keras through custom training logic.
+        \item Built as Python package with containerised CUDA environment for GPU deployment using Nvidia-Docker.
       \end{cvitems}
     }
     
 %---------------------------------------------------------
+\cvproject
+    {\href{https://github.com/kaihulme/nestpi}{\faGithubSquare\acvHeaderIconSep nestpi}} % Project location
+    {NestPi} % Project Name
+    {\begin{cvitems}
+        \item RasberryPi nest box camera and Flask web app for monitoring, hosted by AWS EC2 instance with RDS SQL database and S3 for video storage.
+        \item CI/CD pipeline implemented with GitHub actions automates testing with Pytest and build deployment to AWS services using Elastic Beanstalk.
+        \item Containerised Gunicorn application, with automated publishing to DockerHub and AWS instance utilising docker-compose.      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+% \cvproject
+%     {\href{https://github.com/kaihulme/alspac-mhst}{\faGithubSquare\acvHeaderIconSep alspac-mhst}} % Project location
+%     {Mental Health and Screen Time} % Project Name
+%     {\begin{cvitems}
+%         \item Data science team project for Jean Golding Institute, analysing ALSPAC data for correlation of screen usage and child mental health issues.
+%         \item Mostly missing data led to analysis of various developed multivariate model-based imputation methods using Scikit-Learn and XGBoost.
+%         \item Using classification methods and statistical analysis it was concluded, given the data, there was little to no evidence for such a correlation.
+%         \item IEEE paper with full analysis and methods available on GitHub repository.
+%       \end{cvitems}
+%     }
+
 \cvproject
     {\href{https://github.com/kaihulme/alspac-mhst}{\faGithubSquare\acvHeaderIconSep alspac-mhst}} % Project location
     {Mental Health and Screen Time} % Project Name
     {\begin{cvitems}
         \item Data science team project for Jean Golding Institute, analysing ALSPAC data for correlation of screen usage and child mental health issues.
-        \item Mostly missing data led to analysis of various developed multivariate model-based imputation methods using Scikit-Learn and XGBoost.
-        \item Using classification methods and statistical analysis it was concluded, given the data, there was little to no evidence for such a correlation.
+        \item Developed various multivariate model-based imputation methods using Scikit-Learn and XGBoost to handle missing data.
         \item IEEE paper with full analysis and methods available on GitHub repository.
       \end{cvitems}
     }
     
 %---------------------------------------------------------
-\cvproject
-    {\href{https://github.com/kaihulme/ml-analysis}{\faGithubSquare\acvHeaderIconSep ml-analysis}} % Project location
-    {Machine Learning Model Analysis} % Project Name
-    {\begin{cvitems}
-        \item Analysis and optimisation of various classification and regression models using Scikit-Learn, Keras and PyMC3.
-        \item Built visualisation and performance methods to compare support vector machines, neural networks and ensemble classification models.
-        \item Implemented Bayesian linear regression with PyMC3 to embed prior domain knowledge into the model learnt during exploratory data analysis.
-        \item Built Scikit-Learn wrapper around PyMC3 regression model for comparison of Bayesian and frequentist regression methods.
-      \end{cvitems}
-    }
+% \cvproject
+%     {\href{https://github.com/kaihulme/ml-analysis}{\faGithubSquare\acvHeaderIconSep ml-analysis}} % Project location
+%     {Machine Learning Model Analysis} % Project Name
+%     {\begin{cvitems}
+%         \item Analysis and optimisation of various classification and regression models using Scikit-Learn, Keras and PyMC3.
+%         \item Built visualisation and performance methods to compare support vector machines, neural networks and ensemble classification models.
+%         \item Implemented Bayesian linear regression with PyMC3 to embed prior domain knowledge into the model learnt during exploratory data analysis.
+%       \end{cvitems}
+%     }
     
 %---------------------------------------------------------
 \cvproject
     {\href{https://github.com/kaihulme/dartboard-detection}{\faGithubSquare\acvHeaderIconSep dartboard-detection}} % Project location
     {Dartboard Detection} % Project Name
     {\begin{cvitems}
-        \item {Dartboard detection using OpenCV and traditional computer vision techniques implemented in C++ and Python.}
-        \item {Bounding box detection from images using ensemble of Viola-Jones cascades, Hough transform shape detectors and KMeans clustering.}
+        \item {Dartboard detection using OpenCV and traditional computer vision techniques, implemented in C++ and Python.}
+        \item {Bounding box detection from images using an ensemble of Viola-Jones cascades, Hough transform shape detectors and KMeans clustering.}
+      \end{cvitems}
+    }
+    
+% %---------------------------------------------------------
+\cvproject
+    {{\href{https://github.com/kaihulme/game-of-life}{\faGithubSquare\acvHeaderIconSep game-of-life}}} % Project location
+    {Game of Life} % Project Name
+    {\begin{cvitems}
+        \item {Concurrent implementation of Game of Life in C (XC), using parallel programming concepts such as farming and inter-process communication.}
+        \item{Embedded application for XMOS xCORE-200 with bit-manipulation optimisations to maximise limited resources.}
       \end{cvitems}
     }
     
@@ -56,18 +97,8 @@
 %     {\href{https://github.com/kaihulme/os-kernel}{\faGithubSquare\acvHeaderIconSep os-kernel}} % Project location
 %     {Operating System Kernel} % Project Name
 %     {\begin{cvitems}
-%         \item {Point 1.}
-%         \item {Point 2.}
-%       \end{cvitems}
-%     }
-    
-% %---------------------------------------------------------
-% \cvproject
-%     {{\href{https://github.com/kaihulme/game-of-life}{\faGithubSquare\acvHeaderIconSep game-of-life}}} % Project location
-%     {Game of Life} % Project Name
-%     {\begin{cvitems}
-%         \item {Point 1.}
-%         \item {Point 2.}
+%         \item {Implementation of a UNIX-style operating system in C for the ARM architecture.}
+%         \item {Multiprocessing OS with inter-process communication and priority-based scheduling.}
 %       \end{cvitems}
 %     }
 
