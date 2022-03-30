@@ -51,7 +51,7 @@
 
 ### NestPi
 
-- RasberryPi nest box camera and Flask web app for monitoring, hosted by AWS EC2 instance with RDS SQL database and S3 for video storage.
+- RaspberryPi nest box camera and Flask web app for monitoring, hosted by AWS EC2 instance with RDS SQL database and S3 for video storage.
 - CI/CD pipeline implemented with GitHub actions automates testing with Pytest and build deployment to AWS services using Elastic Beanstalk.
 - Containerised Gunicorn application, with automated publishing to DockerHub and AWS instance utilising docker‑compose.
 
